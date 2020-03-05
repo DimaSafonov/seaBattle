@@ -111,3 +111,13 @@ a {
     bottom: 0;
     right: 0;
   }
+
+  .header {
+    text-transform: uppercase;
+    background: repeating-linear-gradient(white, white 2px, #7AB4E2 2px, #7AB4E2 3px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #14d9e27a; */
+    display: table;
+    margin: 20px auto;    
+  }
